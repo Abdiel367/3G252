@@ -1,4 +1,4 @@
-bin/programa : src/main.cpp include/Foco.hpp include/Es
+bin/programa : src/main.cpp include/Foco.hpp include/EstadoFoco.hpp
 	c++ src/main.cpp -o bin/programa -I include
 
 run : bin/programa
